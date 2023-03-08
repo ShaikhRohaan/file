@@ -1,0 +1,125 @@
+.zax_tokenomic_bg {
+  /* background-image: url(../../../Image/bg2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 800px; */
+}
+
+.pre-sale-text {
+  background-color: rgb(255, 199, 0);
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.mmit_token_main {
+  background-color: rgba(255, 122, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.pre_sale_img img {
+  width: 100%;
+  height: auto;
+}
+.pre_sale_img h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
+}
+
+.pre_sale_img p {
+  color: white;
+  text-align: justify;
+}
+
+#dawnload_sbg{
+  color: black;
+  text-align: center;
+}
+
+.mmit_icon {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.text_coin{
+  padding-top: 15px;
+  padding-left: 20px;
+  color: red;
+  cursor: pointer;
+}
+/* label{
+  padding: 10px;
+  background: red; 
+  display: table;
+  color: #fff;
+   }
+
+
+
+input[type="file"] {
+  display: none;
+} */
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(255, 199, 0);
+  height: 300px;
+  /* width: 500px; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.uploaded-row{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #e9f0ff;
+  display: none;
+}
+
+.upload-content{
+  display: flex;
+  align-items: center;
+}
+  
+#task_text {
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+@media (max-width: 414px) {
+  #task_text {
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  .text_coin{
+    margin-left: -10px;
+    
+  }
+  .mmit_icon {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    margin-top: 16px;
+}
+
+#dawnload_sbg{
+  font-size: 10px;
+}
+.mmit_icon{
+  margin-top: 21px;
+}
+}
+
+

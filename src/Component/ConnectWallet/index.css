@@ -1,0 +1,56 @@
+.bg_we_zax {
+    /* background:linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(../../../Image/bg1.png); */
+   background: linear-gradient(
+    rgba(37,36,36,0.7),
+    rgba(37,36,36,0.7)    
+   ),url(../../Image/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  
+  .we_zax_heading h1 {
+    color: white;
+    padding-top: 15%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 58px;
+    text-align: start;
+  }
+  .bg_we_zax p {
+    color: white;
+    padding-top: 2%;
+    font-size: 20px;
+    text-align: justify;
+    
+    
+  }
+
+  .inventing_img img{
+    width: 105%;
+    height: auto;
+    padding-top: 18%;
+    padding-bottom: 15%;
+  }
+  
+  @media (max-width: 414px) {
+    .we_zax_heading h1 {
+      font-size: 28px;
+    }
+    .we_zax_heading p {
+      padding-bottom: -50px;
+    }
+  }
+
+  @media (max-width:800px) and (min-width:500px)
+  {
+    .we_zax_heading h1{
+      font-size: 25px;
+    }
+    .inventing_img img{
+      margin-top: 30%;
+    }
+  }
+  

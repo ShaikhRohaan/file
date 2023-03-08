@@ -1,0 +1,53 @@
+.roadmap_bg {
+    background: linear-gradient(rgba(37,36,36,0.9), rgba(37,36,36, 0.9)),
+      url(../../Image/logo2.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+
+.phase_birth h2 {
+    color: rgb(255, 184, 0);
+  }
+  .phase_birth ul {
+    color: white;
+  }
+  .tree_img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media(max-width:414px){
+    #jounnay_text{
+      font-size: 25px;
+    }
+    .tree_img img{
+      height:100px;
+      width: 100px;
+      margin-left:32%;
+    }
+    #journay_arrow{
+      margin-top: -100%;
+      margin-left: -6%;
+      /* margin-bottom: 30px; */
+    }
+    #journaey_phase{
+      margin-top: 20px;
+    }
+    #journay_arrow1{
+      font-size: 0px;
+    }
+  
+    #avialable_text{
+      margin-left: 10%;
+    }
+  }
+
+  @media (max-width:800px) and (min-width:500px)
+  {
+    .phase_birth h2{
+      font-size: 20px;
+    }
+  }

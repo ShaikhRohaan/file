@@ -1,0 +1,33 @@
+.footer_bg {
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255, 0.8)),
+      url(../../Image/logo2.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
+.footer_icon img {
+  width: 100%;
+  height: auto;
+}
+
+.footer_logo img {
+  width: 100%;
+  height: auto;
+}
+#header_m_h1{
+  width: 65%;
+  padding-top: 30px;
+  margin-top: 4%;
+  margin-left: 5px;
+  color:rgb(255,199,0);
+  font-size: 20px;
+}
+
+@media(max-width:414px)
+{
+  #header_m_h1{
+    font-size: 15px;
+  }
+}
